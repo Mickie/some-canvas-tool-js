@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="788ed799-74ea-4aa1-8280-98bc194c766f" name="Default" comment="" />
+    <ignored path="testimg.html.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="testimg.html" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="testing.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="46" selection-start="630" selection-end="630" vertical-scroll-proportion="0.40089086" vertical-offset="0" max-vertical-offset="898">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testing2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="196" column="4" selection-start="4436" selection-end="4643" vertical-scroll-proportion="-7.3076925" vertical-offset="1590" max-vertical-offset="8325">
+              <folding>
+                <element signature="e#2344#3908#0" expanded="false" />
+                <element signature="e#3951#3998#0" expanded="false" />
+                <element signature="e#4040#4089#0" expanded="false" />
+                <element signature="e#4572#4640#0" expanded="false" />
+                <element signature="e#4845#4875#0" expanded="false" />
+                <element signature="e#4898#4928#0" expanded="false" />
+                <element signature="e#4947#4978#0" expanded="false" />
+                <element signature="e#4994#5310#0" expanded="false" />
+                <element signature="e#5032#5234#0" expanded="false" />
+                <element signature="e#5667#5669#0" expanded="false" />
+                <element signature="e#9799#10047#0" expanded="false" />
+                <element signature="n#style#0;n#input#0;n#p#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testing3.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="16" selection-end="38" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="7365">
+              <folding>
+                <element signature="e#2198#3784#0" expanded="false" />
+                <element signature="e#4433#4463#0" expanded="false" />
+                <element signature="e#4486#4516#0" expanded="false" />
+                <element signature="e#4535#4566#0" expanded="false" />
+                <element signature="e#12120#12267#0" expanded="false" />
+                <element signature="e#12287#12431#0" expanded="false" />
+                <element signature="n#style#0;n#input#0;n#p#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chart.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chart.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="25" selection-start="198" selection-end="198" vertical-scroll-proportion="0.11388286" vertical-offset="0" max-vertical-offset="1380">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jqx.base.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jqx.base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="262" column="36" selection-start="5765" selection-end="5765" vertical-scroll-proportion="-10.153846" vertical-offset="3666" max-vertical-offset="54810">
+              <folding>
+                <marker date="1386757771000" expanded="true" signature="4448:4485" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="10817:10854" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="11095:11132" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="19144:19181" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="19458:19495" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="19780:19817" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="20073:20110" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="23818:23855" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="30757:30794" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="30895:30932" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="31034:31071" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="31174:31211" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="53881:53918" placeholder="{...}" />
+                <marker date="1386757771000" expanded="true" signature="72553:72590" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jqxdata.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jqxdata.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="60732" selection-start="60848" selection-end="60848" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/testing.html" />
+        <option value="$PROJECT_DIR$/testing2.html" />
+        <option value="$PROJECT_DIR$/testing3.html" />
+        <option value="$PROJECT_DIR$/jqxcore.js" />
+        <option value="$PROJECT_DIR$/jqxchart.js" />
+        <option value="$PROJECT_DIR$/jqxdata.js" />
+        <option value="$PROJECT_DIR$/jqx.base.css" />
+        <option value="$PROJECT_DIR$/chart.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="926" />
+    <option name="y" value="879" />
+    <option name="width" value="1566" />
+    <option name="height" value="1018" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testimg.html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testimg.html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testimg.html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="788ed799-74ea-4aa1-8280-98bc194c766f" name="Default" comment="" />
+      <created>1386562542250</created>
+      <updated>1386562542250</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="926" y="879" width="1566" height="1018" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25328946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="371" column="70" selection-start="8755" selection-end="8755" vertical-scroll-proportion="0.0" vertical-offset="5505" max-vertical-offset="5505">
+          <folding>
+            <element signature="e#2344#3908#0" expanded="false" />
+            <element signature="e#3951#3998#0" expanded="false" />
+            <element signature="e#4040#4089#0" expanded="false" />
+            <element signature="e#4572#4640#0" expanded="false" />
+            <element signature="e#4845#4875#0" expanded="false" />
+            <element signature="e#4898#4928#0" expanded="false" />
+            <element signature="e#4947#4978#0" expanded="false" />
+            <element signature="e#4994#5310#0" expanded="false" />
+            <element signature="e#5032#5234#0" expanded="false" />
+            <element signature="e#5667#5669#0" expanded="false" />
+            <element signature="e#9799#10047#0" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#p#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="4" selection-start="4436" selection-end="4643" vertical-scroll-proportion="-7.3076925" vertical-offset="1590" max-vertical-offset="8325">
+          <folding>
+            <element signature="e#2344#3908#0" expanded="false" />
+            <element signature="e#3951#3998#0" expanded="false" />
+            <element signature="e#4040#4089#0" expanded="false" />
+            <element signature="e#4572#4640#0" expanded="false" />
+            <element signature="e#4845#4875#0" expanded="false" />
+            <element signature="e#4898#4928#0" expanded="false" />
+            <element signature="e#4947#4978#0" expanded="false" />
+            <element signature="e#4994#5310#0" expanded="false" />
+            <element signature="e#5032#5234#0" expanded="false" />
+            <element signature="e#5667#5669#0" expanded="false" />
+            <element signature="e#9799#10047#0" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#p#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="198" selection-end="198" vertical-scroll-proportion="0.11388286" vertical-offset="0" max-vertical-offset="1380">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqxchart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="97856" selection-start="97972" selection-end="97972" vertical-scroll-proportion="0.0990099" vertical-offset="0" max-vertical-offset="909">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqxcore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29264" selection-start="29380" selection-end="29380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqxdata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="60732" selection-start="60848" selection-end="60848" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="46" selection-start="630" selection-end="630" vertical-scroll-proportion="0.40089086" vertical-offset="0" max-vertical-offset="898">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="16" selection-end="38" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="7365">
+          <folding>
+            <element signature="e#2198#3784#0" expanded="false" />
+            <element signature="e#4433#4463#0" expanded="false" />
+            <element signature="e#4486#4516#0" expanded="false" />
+            <element signature="e#4535#4566#0" expanded="false" />
+            <element signature="e#12120#12267#0" expanded="false" />
+            <element signature="e#12287#12431#0" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#p#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jqx.base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="262" column="36" selection-start="5765" selection-end="5765" vertical-scroll-proportion="-10.153846" vertical-offset="3666" max-vertical-offset="54810">
+          <folding>
+            <marker date="1386757771000" expanded="true" signature="4448:4485" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="10817:10854" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="11095:11132" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="19144:19181" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="19458:19495" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="19780:19817" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="20073:20110" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="23818:23855" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="30757:30794" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="30895:30932" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="31034:31071" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="31174:31211" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="53881:53918" placeholder="{...}" />
+            <marker date="1386757771000" expanded="true" signature="72553:72590" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

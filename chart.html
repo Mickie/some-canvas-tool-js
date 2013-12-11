@@ -1,0 +1,87 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="jqx.base.css" type="text/css" />
+    <style>
+        div#chartContainer{
+            width:1000px;
+            height:400px;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="jqxcore.js"></script>
+    <script type="text/javascript" src="jqxchart.js"></script>
+    <script type="text/javascript" src="jqxdata.js"></script>
+    <script>
+
+        $(document).ready(function(){
+
+            var sampleData = [
+                { Day:'0-1', Keith:30, Erica:15, George: 25},
+                { Day:'1-2', Keith:25, Erica:25, George: 30},
+                { Day:'2-3', Keith:30, Erica:20, George: 25},
+                { Day:'3-4', Keith:35, Erica:25, George: 45},
+                { Day:'4-5', Keith:20, Erica:20, George: 25},
+                { Day:'5-6', Keith:30, Erica:20, George: 30},
+                { Day:'6-7', Keith:60, Erica:45, George: 90},
+                { Day:'7-8', Keith:30, Erica:15, George: 25},
+                { Day:'8-9', Keith:25, Erica:25, George: 30},
+                { Day:'9-10', Keith:30, Erica:20, George: 25},
+                { Day:'10-11', Keith:35, Erica:25, George: 45},
+                { Day:'11-12', Keith:20, Erica:20, George: 25},
+                { Day:'12-13', Keith:30, Erica:20, George: 30},
+                { Day:'13-14', Keith:30, Erica:15, George: 25},
+                { Day:'14-15', Keith:25, Erica:25, George: 30},
+                { Day:'15-30', Keith:30, Erica:20, George: 25},
+                { Day:'30-45', Keith:35, Erica:25, George: 45},
+                { Day:'45-60', Keith:20, Erica:20, George: 25},
+                { Day:'60+', Keith:30, Erica:20, George: 30}
+
+
+            ];
+
+            var settings = {
+                title: "排队时间分布",
+                description: "",
+                padding: { left: 5, top: 5, right: 5, bottom: 5 },
+                titlePadding: { left: 90, top: 0, right: 0, bottom: 10 },
+                source: sampleData,
+                categoryAxis:
+                {
+                    dataField: 'Day',
+                    showGridLines: false
+                },
+                colorScheme: 'scheme01',
+                seriesGroups:
+                        [
+                            {
+                                type: 'column',
+                                columnsGapPercent: 30,
+                                seriesGapPercent: 0,
+                                valueAxis:
+                                {
+                                    minValue: 0,
+                                    maxValue: 100,
+                                    unitInterval: 10,
+                                    description: 'Time in minutes'
+                                },
+                                series: [
+                                    { dataField: 'Keith', displayText: 'Keith'},
+                                    { dataField: 'Erica', displayText: 'Erica'},
+                                    { dataField: 'George', displayText: 'George'}
+                                ]
+                            }
+                        ]
+            };
+            $('#chartContainer').jqxChart(settings);
+        })
+    </script>
+</head>
+<body>
+<body style="background:white;">
+<div id='chartContainer' style="width:600px; height: 400px"/>
+</body>
+
+
+</body>
+</html>

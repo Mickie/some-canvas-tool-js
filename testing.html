@@ -1,0 +1,51 @@
+<html>
+<head>
+   <script>
+
+
+       function show()
+       {
+
+           var img =new Image();
+           img.src="1.png";
+
+           var c=document.getElementById("myCanvas");
+           var ctx=c.getContext("2d");
+           img.addEventListener('load', function () {
+               ctx.drawImage(this, 0, 0, img.width, img.height);
+               var imgData=ctx.getImageData(100,100,100,100);
+               var data=imgData.data;
+
+
+               for(var j=0;j<100;j++){
+                   for(var i=0;i<100;i++){
+
+                           var pixelOffset= (j * 100 + i) * 4;
+
+                           // cxt.beginPath();
+//                        cxt.fillStyle="rgb(119,119,119)"
+                           data[pixelOffset+3]=127;
+                           ctx.putImageData(imgData,100,100);
+//                        cxt.arc(x,y,result,0,Math.PI*2,true);
+//                        cxt.closePath();
+//                        cxt.fill();
+                   }
+               }
+
+
+           });
+//           ctx.drawImage(img,0,0);
+
+//           ctx.putImageData(imgData,10,70);
+
+       }
+
+
+       </script>
+
+</head>
+<body>
+<button onclick="show()">click me</button>
+<canvas id="myCanvas"></canvas>
+</body>
+</html>
