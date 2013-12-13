@@ -209,7 +209,6 @@ function MouseMoveEvent(){
     oDiv=document.getElementById("imagePreView");
     var startX,startY,endX,endY,preX,preY;
 
-
     function setImgAlpha(a,penWidth,imgData){
 
         for(var j=0;j<penWidth*2;j++){
@@ -232,33 +231,9 @@ function MouseMoveEvent(){
         };
         if(buttonId=="wipe"){
             down = 1;
-            var top=getY(oDiv);
-            var left=getX(oDiv);
-            x = (e.clientX-left+document.body.scrollLeft)-2;
-            y = (e.clientY-top+document.body.scrollTop)-2;
-            var newX=x-result;
-            var newY=y-result;
-            var d=result*2;
-            var imageData=ctx.getImageData(newX,newY,d,d);
-            var data=imageData.data;
-            setImgAlpha(127,result,data);
-
-            ctx.putImageData(imageData,(newX),(newY));
         };
         if(buttonId=="restore"){
             down = 1;
-            var top=getY(oDiv);
-            var left=getX(oDiv);
-            x = (e.clientX-left+document.body.scrollLeft)-2;
-            y = (e.clientY-top+document.body.scrollTop)-2;
-            var newX=x-result;
-            var newY=y-result;
-            var d=result*2;
-            var imageData=ctx.getImageData(newX,newY,d,d);
-            var data=imageData.data;
-            setImgAlpha(255,result,data);
-
-            ctx.putImageData(imageData,(newX),(newY));
         };
 
     })
@@ -271,29 +246,27 @@ function MouseMoveEvent(){
                 var top=getY(oDiv);
                 var left=getX(oDiv);
 
-                endX = (e.clientX-left+document.body.scrollLeft);
-                endY = (e.clientY-top+document.body.scrollTop);
-
+                endX = (e.clientX-left+document.body.scrollLeft)-2;
+                endY = (e.clientY-top+document.body.scrollTop)-2;
+            }
+//
 //                if((endX>=preX)&&(endY>=preY)){
-
-                    var selectWidth=Math.sqrt((endX-startX)*(endX-startX));
-                    var selectHeight=Math.sqrt((endY-startY)*(endY-startY));
-                    var selectImgData=ctx.getImageData(startX,startY,selectWidth,selectHeight);
-                    var selectData=selectImgData.data;
-
-
-                    for(var j=0;j<selectHeight;j++){
-                        for(var i=0;i<selectWidth;i++){
-                            var pixelOffset= (j * selectWidth+ i) * 4;
-                            selectData[pixelOffset+3]=127;
-
-                        }
-                    }
-                    ctx.putImageData(selectImgData,startX,startY);
-                    preX=endX;
-                    preY=endY;
-
-
+//
+//                    var selectWidth=Math.sqrt((endX-startX)*(endX-startX));
+//                    var selectHeight=Math.sqrt((endY-startY)*(endY-startY));
+//                    var selectImgData=ctx.getImageData(startX,startY,selectWidth,selectHeight);
+//                    var selectData=selectImgData.data;
+//
+//
+//                    for(var j=0;j<selectHeight;j++){
+//                        for(var i=0;i<selectWidth;i++){
+//                            var pixelOffset= (j * selectWidth+ i) * 4;
+//                            selectData[pixelOffset+3]=127;
+//
+//                        }
+//                    }
+//                    ctx.putImageData(selectImgData,startX,startY);
+//
 //                }
 //
 //                if((endX>=preX)&&(endY<preY)){
@@ -323,9 +296,6 @@ function MouseMoveEvent(){
 //                        }
 //                    }
 //                    ctx.putImageData(selectData1,startX,endY);
-//                    preX=endX;
-//                    preY=endY;
-//
 //
 //                };
 //                if((endX<preX)&&(endY>=preY)){
@@ -354,9 +324,6 @@ function MouseMoveEvent(){
 //                        }
 //                    }
 //                    ctx.putImageData(selectImgData1,endX,startY);
-//                    preX=endX;
-//                    preY=endY;
-//
 //
 //                };
 //
@@ -384,14 +351,17 @@ function MouseMoveEvent(){
 //                        }
 //                    }
 //                    ctx.putImageData(selectImgData1,startX,endY);
-//                    preX=endX;
-//                    preY=endY;
-//
 //
 //                }
+//
+////
+//                preX=endX;
+//                preY=endY;
+//
+////
+////
+//            }
 
-
-            }
         };
 
         if(buttonId=="wipe"){
@@ -407,6 +377,13 @@ function MouseMoveEvent(){
                 var data=imageData.data;
                 setImgAlpha(127,result,data);
 
+//                for(var j=0;j<d;j++){
+//                    for(var i=0;i<d;i++){
+//                        if((j-d/2)*(j-d/2)+(i-d/2)*(i-d/2)<=(d/2*d/2)){
+//                            var pixelOffset= (j * d + i) * 4;
+//                            data[pixelOffset+3]=127;}
+//                    }
+//                }
                 ctx.putImageData(imageData,(newX),(newY));
             }
         };
@@ -424,7 +401,13 @@ function MouseMoveEvent(){
                 var imageData=ctx.getImageData(newX,newY,d,d);
                 var data=imageData.data;
                 setImgAlpha(255,result,data);
-
+//                for(var j=0;j<d;j++){
+//                    for(var i=0;i<d;i++){
+//                        if((j-d/2)*(j-d/2)+(i-d/2)*(i-d/2)<=(d/2*d/2)){
+//                            var pixelOffset= (j * d + i) * 4;
+//                            data[pixelOffset+3]=255;}
+//                    }
+//                }
                 ctx.putImageData(imageData,(newX),(newY));
             }
 
@@ -434,7 +417,35 @@ function MouseMoveEvent(){
 
     $("canvas").bind("mouseup",function(){
         down=0;
+        if(buttonId="select"){
+            var canvas=document.getElementsByTagName("canvas")[0]=new fabric.Canvas('c');
+            var rect=new fabric.Rect({
+                left:endX,
+                top:endY,
+                originX:'left',
+                originY:'top',
+                width:Math.sqrt((endX-startX)*(endX-startX)),
+                height:Math.sqrt((endY-startY)*(endY-startY)),
+                fill:'rgba(255,0,0,0.5)',
+            })
+            canvas.add(rect).setActiveObject(rect);
+        }
     });
+    function observeBoolean(property) {
+        document.getElementById(property).onclick = function() {
+            canvas[property] = this.checked;
+            canvas.renderAll();
+        };
+    }
+
+    function observeNumeric(property) {
+        document.getElementById(property).onchange = function() {
+            canvas[property] = this.value;
+            canvas.renderAll();
+        };
+    }
+    observeBoolean('select');
+
 }
 
 $(function(){
@@ -450,18 +461,6 @@ $(function(){
         }
     });
     $( "#amount" ).val( $( "#slider-range-max" ).slider( "value" ) );
-
-    var penCanvas=document.getElementById('showResult');
-    var theCtx=penCanvas.getContext('2d');
-    theCtx.fillStyle="#777777";
-    theCtx.beginPath();
-    var startPointX=penCanvas.width/2;
-    var startPointY=penCanvas.height/2;
-
-    theCtx.arc(startPointX,startPointY,result,0,Math.PI*2,true);
-    cxt.closePath();
-    cxt.fill();
-
 
 })
 
@@ -575,9 +574,7 @@ function saveToYellow(){
         <p>
             <label for="amount">已选择笔触大小:</label>
             <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
-
         </p>
-        <canvas id="showResult"></canvas>
         <div id="slider-range-max"></div>
 
 
